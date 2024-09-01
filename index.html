@@ -11,14 +11,23 @@
 
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+
+
   <!-- for google font-->
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
   <!-- fontawesome here -->
 
   <script src="https://kit.fontawesome.com/b1b6dc90c6.js" crossorigin="anonymous"></script>
+
   <!-- tailwind custom part added here -->
 
   <script>
@@ -27,6 +36,7 @@
         extend: {
           fontFamily: {
             manrope: ["Manrope", "sans-serif"],
+            arvo: ["Arvo", "serif"],
           },
           colors: {
             clifford: "#da373d",
@@ -44,6 +54,7 @@
   <header class="container mx-auto">
 
     <!-- Navbar sec here-->
+
     <nav class="flex items-center justify-between mt-2 md:mt-7 mx-2 md:mx">
       <a class="flex items-center hover:cursor-pointer ">
           <i class="fa-solid fa-arrow-right p-2 rounded-full bg-color_primary" style="rotate: -45deg"></i>
@@ -111,6 +122,8 @@
         </ul>
       </div>
     </nav>
+
+
     <!-- Banner sec here-->
     <section>
       <div class="hero min-h-screen">
@@ -161,8 +174,8 @@
           <!-- Text sec here -->
 
           <div class="lg:w-1/2 lg:pl-12">
-            <h2 class="text-3xl font-bold text-gray-800 mb-4">Dream Home Designs</h2>
-            <p class="text-gray-500 mb-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4 font-arvo">Dream home designs</h2>
+            <p class="text-gray-500 mb-6 ">
               Discover the perfect design for your dream home. Our team of professional designers and architects are dedicated to creating unique and innovative spaces that reflect your personal style and needs.
             </p>
             <a class="btn bg-color_sec py-2 px-6 rounded-full font-bold hover:bg-color_primary">
